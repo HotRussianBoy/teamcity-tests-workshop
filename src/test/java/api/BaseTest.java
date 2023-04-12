@@ -8,11 +8,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.workshop.api.generators.TestDataGenerator;
+import org.workshop.api.requests.CheckedRequest;
 
 public class BaseTest {
     public SoftAssertions softy;
 
+    //public CheckedRequest checkedRequest;
+
     public final TestDataGenerator testDataGenerator = new TestDataGenerator();
+
+
 
     @BeforeSuite
     public void setup() {

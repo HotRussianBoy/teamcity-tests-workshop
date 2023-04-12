@@ -6,4 +6,8 @@ import lombok.Data;
 @Data
 @Builder
 public class Property {
+    private String name;
+    private String value;
+    private Boolean inherited;
+    private Type type;
 }

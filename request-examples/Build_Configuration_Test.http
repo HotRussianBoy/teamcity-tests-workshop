@@ -2,7 +2,7 @@
 GET http://admin:admin@localhost:8111/authenticationTest.html?csrf
 Accept: application/json
 
-### 1. Create project
+### 1. Create Project Description
 POST http://admin:admin@localhost:8111/app/rest/projects
 Content-Type: application/json
 Accept: application/json

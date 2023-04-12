@@ -11,7 +11,7 @@ public class RandomData {
     private final java.util.Random random = new Random();
 
     public String getString() {
-        return "test_" + RandomStringUtils.randomAlphabetic(STRING_LENGTH).toString();
+        return "test_" + RandomStringUtils.randomAlphabetic(STRING_LENGTH);
     }
 
     public Boolean getBoolean() {

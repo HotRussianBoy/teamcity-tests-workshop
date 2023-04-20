@@ -1,14 +1,12 @@
 package org.workshop.api.models;
 
-
 import lombok.Builder;
 import lombok.Data;
 
-@Builder
 @Data
-public class Property {
+@Builder
+public class Step {
     private String name;
-    private String value;
-
+    private String type;
+    private Properties properties;
 }
-

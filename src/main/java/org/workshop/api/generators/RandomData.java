@@ -6,12 +6,12 @@ import java.util.Random;
 
 public class RandomData {
 
-    private static final int STRING_LENGTH = 10;
+    private static final int STRING_LENGTH = 4;
 
     private final java.util.Random random = new Random();
 
     public String getString() {
-        return "test_" + RandomStringUtils.randomAlphabetic(STRING_LENGTH);
+        return "test" + RandomStringUtils.randomAlphabetic(STRING_LENGTH);
     }
 
     public Boolean getBoolean() {

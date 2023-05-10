@@ -15,7 +15,6 @@ import org.workshop.api.generators.TestDataGenerator;
 public class BaseTest {
 
     public SoftAssertions softy;
-
     //public CheckedRequest checkedRequest;
 
     public final TestDataGenerator testDataGenerator = new TestDataGenerator();
